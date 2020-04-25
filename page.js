@@ -1,5 +1,5 @@
 
-var CAPTURE_DELAY = 1000;
+var CAPTURE_DELAY = 500;
 
 function onMessage(data, sender, callback) {
     if (data.msg === 'scrollPage') {
